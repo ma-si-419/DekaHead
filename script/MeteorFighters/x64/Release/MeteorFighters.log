@@ -1,0 +1,94 @@
+﻿  BattleUi.cpp
+  CharacterStateTeleportation.cpp
+  CharacterStateDown.cpp
+  Attack.cpp
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Attack.cpp(130,25): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  BattleManager.cpp
+  Character.cpp
+  CharacterStateBase.cpp
+  CharacterStateButtonBashing.cpp
+  CharacterStateCharge.cpp
+  CharacterStateDash.cpp
+  CharacterStateGuard.cpp
+  CharacterStateHitAttack.cpp
+  CharacterStateJump.cpp
+  CharacterStateMove.cpp
+  CharacterStateNormalAttack.cpp
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Character\State\CharacterStateNormalAttack.cpp(601,28): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+  CharacterStateRush.cpp
+  CharacterStateSpecialAttack.cpp
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Character\State\CharacterStateSpecialAttack.cpp(181,95): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Character\State\CharacterStateSpecialAttack.cpp(194,96): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  CharacterStateIdle.cpp
+  Effect.cpp
+  EffectManager.cpp
+  コンパイル中...
+  EnemyInput.cpp
+  GameCamera.cpp
+  GameManagerBase.cpp
+  ObjectBase.cpp
+  Rock.cpp
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Rock.cpp(113,34): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  SelectManager.cpp
+  SelectUi.cpp
+  GraphManager.cpp
+  InputData.cpp
+C:\Users\Kouma\Desktop\Github\MeteorFighters\MyEngine\Utility\InputData.cpp(73,37): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\MyEngine\Utility\InputData.cpp(74,37): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\MyEngine\Utility\InputData.cpp(78,38): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\MyEngine\Utility\InputData.cpp(79,38): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+  LoadManager.cpp
+  MenuUi.cpp
+  LocalPos.cpp
+  Main.cpp
+  Matrix.cpp
+  CapsuleColliderData.cpp
+  Collidable.cpp
+  Physics.cpp
+  Rigidbody.cpp
+  SphereColliderData.cpp
+  Input.cpp
+  コンパイル中...
+  LoadCsv.cpp
+  Vector2.cpp
+  Vector3.cpp
+  SceneTutorial.cpp
+  SceneBase.cpp
+  SceneGame.cpp
+  SceneManager.cpp
+  SceneMenu.cpp
+  SceneSelect.cpp
+  SceneTitle.cpp
+  StateBase.cpp
+  SoundManager.cpp
+  Stage.cpp
+  GameUi.cpp
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\GameUi.cpp(505,43): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\GameUi.cpp(519,41): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\GameUi.cpp(555,43): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\GameUi.cpp(561,41): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\GameUi.cpp(602,43): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\GameUi.cpp(616,41): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\GameUi.cpp(652,43): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\GameUi.cpp(658,41): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+  TitleUi.cpp
+  TutorialManager.cpp
+  TutorialUi.cpp
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(953,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(975,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(986,29): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1076,23): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1098,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1140,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1162,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1172,29): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1182,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1192,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1228,58): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1252,82): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1282,24): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+  All 6208 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  MeteorFighters.vcxproj -> C:\Users\Kouma\Desktop\Github\MeteorFighters\x64\Release\MeteorFighters.exe

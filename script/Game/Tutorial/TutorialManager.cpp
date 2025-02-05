@@ -13,7 +13,7 @@
 namespace
 {
 	//BGMの音量
-	constexpr int kBgmVolume = 150;
+	constexpr int kBgmVolume = 220;
 
 	//stringからSuccessKindに変換するためのmap
 	const std::map<std::string, TutorialManager::TutorialSuccessKind> kSuccessKindMap =
@@ -341,12 +341,23 @@ void TutorialManager::UpdatePlayMenu()
 	if (isEnd)
 	{
 		ChangeSituation(nextSituation);
+
+		for (auto& item : m_successTutorialKinds)
+		{
+			item.second = false;
+		}
 	}
 }
 
 void TutorialManager::UpdateStart()
 {
 	auto input = MyEngine::Input::GetInstance().GetInputData(0);
+
+	//クリア判定をリセット
+	for (auto& item : m_successTutorialKinds)
+	{
+		item.second = false;
+	}
 
 	if (input->IsTrigger("A"))
 	{
@@ -379,6 +390,7 @@ void TutorialManager::UpdatePlaying()
 	//成功条件
 	std::vector<TutorialSuccessKind> successTerms;
 
+
 	//外部データから成功条件を取得
 	for (auto& data : m_tutorialPlayData)
 	{
@@ -404,6 +416,7 @@ void TutorialManager::UpdatePlaying()
 		}
 	}
 
+
 	for (auto item : successTerms)
 	{
 		//ここでクリアしているかを確認
@@ -413,6 +426,12 @@ void TutorialManager::UpdatePlaying()
 			isSuccess = false;
 		}
 	}
+
+	if (m_pTutorialUi->GetNowTutorialMode() == static_cast<int>(TutorialManager::TutorialMode::kStop))
+	{
+		isSuccess = false;
+	}
+
 
 	//クリアしたかどうかをUiに送る
 	m_pTutorialUi->SetSuccessTutorial(isSuccess);
@@ -433,7 +452,17 @@ void TutorialManager::UpdateSuccess()
 	//クリア演出が終わっていたら次のメニューに移る
 	if (m_pTutorialUi->IsSuccessEnd())
 	{
-		m_nowTutorial = static_cast<TutorialKind>(static_cast<int>(m_nowTutorial) + 1);
+		//モードによって次に進むかどうかを変える
+		if (m_pTutorialUi->GetNowTutorialMode() == static_cast<int>(TutorialMode::kAuto))
+		{
+			//次のチュートリアルに進む
+			m_nowTutorial = static_cast<TutorialKind>(static_cast<int>(m_nowTutorial) + 1);
+		}
+		else if (m_pTutorialUi->GetNowTutorialMode() == static_cast<int>(TutorialMode::kRepeat))
+		{
+			//同じチュートリアルを繰り返す
+		}
+
 
 		for (auto& item : m_successTutorialKinds)
 		{
@@ -460,23 +489,27 @@ void TutorialManager::UpdateSelectMenu()
 	//入力情報
 	auto input = MyEngine::Input::GetInstance().GetInputData(0);
 
-	//決定ボタンが押されたら
-	if (input->IsTrigger("A"))
+	//選択できる状況であれば
+	if (m_pTutorialUi->IsSelectSelectMenu())
 	{
-		m_nowTutorial = kTutorialKindMap.at(m_pTutorialUi->GetSelectTutorialName());
+		//決定ボタンが押されたら
+		if (input->IsTrigger("A"))
+		{
+			m_nowTutorial = kTutorialKindMap.at(m_pTutorialUi->GetSelectTutorialName());
 
-		ChangeSituation(TutorialSituation::kStart);
+			ChangeSituation(TutorialSituation::kStart);
 
-		//サウンドを再生する
-		SoundManager::GetInstance().PlayOnceSound("Ok");
+			//サウンドを再生する
+			SoundManager::GetInstance().PlayOnceSound("Ok");
 
-	}
-	//戻るボタンが押されたら
-	else if (input->IsTrigger("B"))
-	{
-		ChangeSituation(TutorialSituation::kStartMenu);
-		//サウンドを再生する
-		SoundManager::GetInstance().PlayOnceSound("Cancel");
+		}
+		//戻るボタンが押されたら
+		else if (input->IsTrigger("B"))
+		{
+			ChangeSituation(TutorialSituation::kStartMenu);
+			//サウンドを再生する
+			SoundManager::GetInstance().PlayOnceSound("Cancel");
+		}
 	}
 
 	//カメラの更新を行う

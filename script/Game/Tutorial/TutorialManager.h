@@ -19,7 +19,6 @@ public:
 		kChargeEnergyAttack,
 		kSpecialAttack,
 		kGuard,
-		kJustGuard,
 		kFalls,
 		kReturn,
 		kSuperDash,
@@ -30,6 +29,7 @@ public:
 		kDownAttack,
 		kGuardUp,
 		kGuardDown,
+		kJustGuard,
 		kTutorialEnd,
 		kTutorialNum = kTutorialEnd
 	};
@@ -81,6 +81,16 @@ public:
 		kIsGround,
 		kButton
 	};
+
+	//チュートリアルの進め方
+	enum class TutorialMode
+	{
+		kAuto,
+		kRepeat,
+		kStop,
+		kModeNum
+	};
+
 
 private:
 

@@ -1,0 +1,32 @@
+﻿  CharacterStateBase.cpp
+  CharacterStateButtonBashing.cpp
+  CharacterStateCharge.cpp
+  CharacterStateDash.cpp
+  CharacterStateDown.cpp
+  CharacterStateHitAttack.cpp
+  CharacterStateJump.cpp
+  CharacterStateMove.cpp
+  CharacterStateNormalAttack.cpp
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Character\State\CharacterStateNormalAttack.cpp(601,28): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+  CharacterStateRush.cpp
+  CharacterStateSpecialAttack.cpp
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Character\State\CharacterStateSpecialAttack.cpp(181,95): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Character\State\CharacterStateSpecialAttack.cpp(194,96): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  SceneTutorial.cpp
+  TutorialManager.cpp
+  TutorialUi.cpp
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(953,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(975,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(986,29): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1076,23): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1098,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1140,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1162,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1172,29): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1182,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1192,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1228,58): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1252,82): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\Users\Kouma\Desktop\Github\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1282,24): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  コードを生成中...
+  MeteorFighters.vcxproj -> C:\Users\Kouma\Desktop\Github\MeteorFighters\x64\Debug\MeteorFighters.exe
