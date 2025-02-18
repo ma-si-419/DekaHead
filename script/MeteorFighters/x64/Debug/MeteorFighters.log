@@ -1,17 +1,2 @@
-﻿  TutorialManager.cpp
-  TutorialUi.cpp
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(931,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(953,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(964,29): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1054,23): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1076,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1118,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1140,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1150,29): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1160,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1170,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1206,58): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1230,82): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1260,24): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
-  コードを生成中...
-  MeteorFighters.vcxproj -> C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\x64\Debug\MeteorFighters.exe
+﻿  CharacterStateRush.cpp
+  MeteorFighters.vcxproj -> C:\Users\fko2347025\Desktop\MeteorFighters\x64\Debug\MeteorFighters.exe

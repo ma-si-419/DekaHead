@@ -2,7 +2,7 @@
   CharacterStateTeleportation.cpp
   CharacterStateDown.cpp
   Attack.cpp
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Attack.cpp(130,25): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Attack.cpp(130,25): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
   BattleManager.cpp
   Character.cpp
   CharacterStateBase.cpp
@@ -14,11 +14,11 @@ C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Attack.cpp(130,25
   CharacterStateJump.cpp
   CharacterStateMove.cpp
   CharacterStateNormalAttack.cpp
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Character\State\CharacterStateNormalAttack.cpp(601,28): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Character\State\CharacterStateNormalAttack.cpp(601,28): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
   CharacterStateRush.cpp
   CharacterStateSpecialAttack.cpp
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Character\State\CharacterStateSpecialAttack.cpp(181,95): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Character\State\CharacterStateSpecialAttack.cpp(194,96): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Character\State\CharacterStateSpecialAttack.cpp(181,95): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Character\State\CharacterStateSpecialAttack.cpp(194,96): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
   CharacterStateIdle.cpp
   Effect.cpp
   MenuManager.cpp
@@ -29,30 +29,30 @@ C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Character\State\Charac
   GameManagerBase.cpp
   ObjectBase.cpp
   Rock.cpp
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Rock.cpp(113,34): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Rock.cpp(113,34): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
   SelectManager.cpp
   SelectUi.cpp
   GraphManager.cpp
   InputData.cpp
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\MyEngine\Utility\InputData.cpp(73,37): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\MyEngine\Utility\InputData.cpp(74,37): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\MyEngine\Utility\InputData.cpp(78,38): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\MyEngine\Utility\InputData.cpp(79,38): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\MyEngine\Utility\InputData.cpp(73,37): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\MyEngine\Utility\InputData.cpp(74,37): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\MyEngine\Utility\InputData.cpp(78,38): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\MyEngine\Utility\InputData.cpp(79,38): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
   LoadManager.cpp
   MenuUi.cpp
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(723,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(724,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(726,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(727,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(729,23): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(730,23): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(732,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(733,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(813,19): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(842,29): warning C4244: '+=': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(846,29): warning C4244: '+=': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(850,29): warning C4244: '+=': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(854,29): warning C4244: '+=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(723,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(724,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(726,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(727,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(729,23): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(730,23): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(732,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(733,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(813,19): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(842,29): warning C4244: '+=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(846,29): warning C4244: '+=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(850,29): warning C4244: '+=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Menu\MenuUi.cpp(854,29): warning C4244: '+=': 'float' から 'int' への変換です。データが失われる可能性があります。
   LocalPos.cpp
   Main.cpp
   Matrix.cpp
@@ -75,52 +75,52 @@ C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Menu\MenuUi.cpp(854,29
   SceneTitle.cpp
   StateBase.cpp
   SoundManager.cpp
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(66,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(72,50): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(78,52): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(193,25): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(203,25): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(213,25): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(301,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(309,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(324,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(332,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(346,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(354,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(368,51): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(373,52): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(378,54): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(386,51): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(391,52): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Singleton\SoundManager.cpp(396,54): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(66,49): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(72,50): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(78,52): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(193,25): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(203,25): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(213,25): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(301,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(309,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(324,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(332,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(346,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(354,55): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(368,51): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(373,52): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(378,54): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(386,51): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(391,52): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Singleton\SoundManager.cpp(396,54): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
   Stage.cpp
   GameUi.cpp
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\GameUi.cpp(505,43): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\GameUi.cpp(519,41): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\GameUi.cpp(555,43): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\GameUi.cpp(561,41): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\GameUi.cpp(602,43): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\GameUi.cpp(616,41): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\GameUi.cpp(652,43): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\GameUi.cpp(658,41): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\GameUi.cpp(505,43): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\GameUi.cpp(519,41): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\GameUi.cpp(555,43): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\GameUi.cpp(561,41): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\GameUi.cpp(602,43): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\GameUi.cpp(616,41): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\GameUi.cpp(652,43): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\GameUi.cpp(658,41): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
   TitleUi.cpp
   TutorialManager.cpp
   TutorialUi.cpp
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(953,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(975,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(986,29): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1076,23): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1098,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1140,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1162,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1172,29): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1182,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1192,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1228,58): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1252,82): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
-C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1282,24): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(953,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(975,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(986,29): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1076,23): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1098,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1140,20): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1162,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1172,29): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1182,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1192,24): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1228,58): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1252,82): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\Users\fko2347025\Desktop\MeteorFighters\Game\Tutorial\TutorialUi.cpp(1282,24): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
   コード生成しています。
   Previous IPDB not found, fall back to full compilation.
-  All 6473 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 6478 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   コード生成が終了しました。
-  MeteorFighters.vcxproj -> C:\Users\Kouma\OneDrive\デスクトップ\MeteorFighters\x64\Release\MeteorFighters.exe
+  MeteorFighters.vcxproj -> C:\Users\fko2347025\Desktop\MeteorFighters\x64\Release\MeteorFighters.exe
