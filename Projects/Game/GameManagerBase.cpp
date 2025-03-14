@@ -14,6 +14,7 @@
 #include "ObjectBase.h"
 #include <cmath>
 #include "SoundManager.h"
+#include "Input.h"
 
 namespace
 {
@@ -342,7 +343,7 @@ Character::PlayerNumber GameManagerBase::GetButtonBashWinner()
 {
 	//プレイヤーのボタン連打回数
 	int player = m_buttonBashNum[static_cast<int>(Character::PlayerNumber::kOnePlayer)];
-	
+
 	//エネミーは難易度によって連打した回数を変える
 	int enemy = kWinButtonBashingNum[static_cast<int>(m_pCharacters[static_cast<int>(Character::PlayerNumber::kTwoPlayer)]->GetEnemyInput()->GetAiLevel())];
 
@@ -438,6 +439,26 @@ void GameManagerBase::UpdateCommon()
 	}
 	//エフェクトの更新
 	m_pEffectManager->Update();
+
+
+	//ダメージの設定
+	int onePlayerDamage = m_pCharacters[static_cast<int>(Character::PlayerNumber::kOnePlayer)]->GetDamage();
+	int twoPlayerDamage = m_pCharacters[static_cast<int>(Character::PlayerNumber::kTwoPlayer)]->GetDamage();
+
+	m_pGameUi->SetDamage(twoPlayerDamage, true);
+	m_pGameUi->SetDamage(onePlayerDamage,false);
+
+	//コンボの設定
+	int onePlayerCombo = m_pCharacters[static_cast<int>(Character::PlayerNumber::kOnePlayer)]->GetCombo();
+	int twoPlayerCombo = m_pCharacters[static_cast<int>(Character::PlayerNumber::kTwoPlayer)]->GetCombo();
+
+	m_pGameUi->SetCombo(twoPlayerCombo, true);
+	m_pGameUi->SetCombo(onePlayerCombo, false);
+	
+	//コンボの更新
+	m_pGameUi->UpdateComboUI();
+	//ダメージの更新
+	m_pGameUi->UpdateDamageUI();
 }
 
 void GameManagerBase::DrawCommon()
@@ -460,6 +481,13 @@ void GameManagerBase::DrawCommon()
 
 	//エフェクトの描画
 	m_pEffectManager->Draw();
+
+
+	//コンボの描画
+	m_pGameUi->DrawCombo();
+
+	//ダメージの描画
+	m_pGameUi->DrawDamage();
 
 	//体力を描画するかどうか
 	if (m_isDrawHpBar)
